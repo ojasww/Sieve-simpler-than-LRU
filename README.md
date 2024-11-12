@@ -6,6 +6,8 @@ This repository contains a **Golang** implementation for the web caching algorit
 
 [Paper Link](https://www.usenix.org/conference/nsdi24/presentation/zhang-yazhuo)
 
+- I [tweeted](https://x.com/ojasw_/status/1856209687676326286) about this.
+
 ## Description
 
 The cache is a **Double Linked List**. It's double because the hand in the sieve which searches for the element
