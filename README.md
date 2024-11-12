@@ -6,7 +6,7 @@ This repository contains a **Golang** implementation for the web caching algorit
 
 [Paper Link](https://www.usenix.org/conference/nsdi24/presentation/zhang-yazhuo)
 
-- I [tweeted](https://x.com/ojasw_/status/1856209687676326286) about this.
+I [tweeted](https://x.com/ojasw_/status/1856209687676326286) about this.
 
 ## Description
 
