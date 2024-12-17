@@ -41,6 +41,7 @@ func (c *Cache) Add(value int) error {
 			return err
 		}
 	}
+	fmt.Println("\n")
 
 	newNode := &Node{value: value, visited: false}
 
@@ -84,6 +85,11 @@ func (c *Cache) Evict() error {
 				c.hand.prev.next = c.hand.next
 				c.hand.next.prev = c.hand.prev
 			}
+
+			temp := c.hand
+			c.hand = c.hand.prev // Move to previous node
+			temp.next = nil      // Remove lingering references
+			temp.prev = nil
 
 			c.size--
 			return nil
