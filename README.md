@@ -35,10 +35,10 @@ type Cache struct {
 
 ## Testing
 
-Just run the main file:
+Tests cases for testing the `Initialization`, `Add`, `Evict`, `Hit`, `EvictionWithVisited` and `EmptyEviction` are present in `main_test.go`. To test the exhaustive test cases, run:
 
 ```go
-go run main.go
+go test
 ```
 
 ## Resources

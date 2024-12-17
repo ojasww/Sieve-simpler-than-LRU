@@ -41,7 +41,6 @@ func (c *Cache) Add(value int) error {
 			return err
 		}
 	}
-	fmt.Println("\n")
 
 	newNode := &Node{value: value, visited: false}
 
@@ -118,7 +117,6 @@ func (c *Cache) PrintCache() {
 		fmt.Printf("Value: %d, Visited: %v\n", node.value, node.visited)
 		node = node.next
 	}
-	fmt.Println("\n")
 }
 
 func main() {
